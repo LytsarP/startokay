@@ -1,9 +1,20 @@
+/*   !!!   FOR OVERAL RESPONSIVE STYLE   !!!   */
 @media screen and (min-width: 1366px) {
     .button input {
         max-width: 280px;
         float: right;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .item-5 {
+        margin-top: 15px;
+    }
+    .item-9 {
+        margin-top: 15px;
+    } 
+}
+
 
 @media screen and (max-width: 992px) {
     .swiper-container-vertical > .swiper-pagination-bullets {
@@ -75,7 +86,7 @@
 
 
 
-/*  !!!  FOR -- MASONRY GRID   !!!   */
+/*  !!!  FOR MASONRY GRID   !!!   */
 @media (max-width: 576px) {
     .card-columns {
         -webkit-column-count: 1;

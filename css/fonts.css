@@ -1,24 +1,24 @@
 @font-face {
-	font-family: 'Hind', 300;
+	font-family: 'Hind', sans-serif;
 	src: url('fonts/Hind-Light.ttf');
 }
 @font-face {
-	font-family: 'Hind', 400;
+	font-family: 'Hind', sans-serif;
 	src: url('fonts/Hind-Regular.ttf');
 }
 @font-face {
-	font-family: 'Hind', 500;
+	font-family: 'Hind', sans-serif;
 	src: url('fonts/Hind-Medium.ttf');
 }
 @font-face {
-	font-family: 'Hind', 600;
+	font-family: 'Hind', sans-serif;
 	src: url('fonts/Hind-SemiBold.ttf');
 }
 @font-face {
-	font-family: 'Hind', 700;
+	font-family: 'Hind', sans-serif;
 	src: url('fonts/Hind-Bold.ttf');
 }
 @font-face {
-	font-family: 'Montserrat', 700;
+	font-family: 'Montserrat', sans-serif;
 	src: url('fonts/Montserrat-Bold.ttf');
 }
