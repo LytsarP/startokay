@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<title>DECO blog</title>
+
+	<script src="js/modernizr-custom.js"></script>
+	
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/swiper.css">
+</head>
+<body class="container-fluid">
+	<header>
+		<div class="row">
+			<div class="col-sm-12 coll-md-12">
+				<div class="header_wrapper-main">
+					<div class="header_menu bottom">
+						<div class="header_menu-item col-sm-2 col-md-4 col-2">
+							<button class="menu-toggle">
+								<span class="icon-menu"></span>
+								<span class="icon-menu"></span>
+								<span class="icon-menu"></span>
+							</button>
+						</div>
+						<div class="header_menu-item center col-sm-6 col-md-4 col-10">
+							<a href="#"><img src="img/logo.png" alt="#">blog</a>
+						</div>
+						<div class="header_menu-item right col-sm-4 col-md-4">
+							<ul>
+								<li class="links"><a href="#"><img src="img/search.png" alt="#"></a></li>
+								<li class="links"><a href="#"><img src="img/facebook.png" alt="#"></a></li>
+								<li class="links"><a href="#"><img src="img/tumbler.png" alt="#"></a></li>
+								<li class="links"><a href="#"><img src="img/twitter.png" alt="#"></a></li>
+								<li class="links first-link"><a href="#"><img src="img/rss.png" alt="#"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="swiper-container">
+		    			<div class="swiper-wrapper">
+					    	<div class="swiper-slide"><div class="swiper-text"><p>Latest News</p><h1>Bodybuilding best<br>for you health</h1></div></div>
+					    	<div class="swiper-slide"><div class="swiper-text"><p>Latest News</p><h1>Bodybuilding best<br>for you health</h1></div></div>
+					    	<div class="swiper-slide"><div class="swiper-text"><p>Latest News</p><h1>Bodybuilding best<br>for you health</h1></div></div>
+		    			</div>
+			    		<div class="swiper-pagination"></div>
+			    		<div class="swiper-button-next"></div>
+			    		<div class="swiper-article">Featured article</div>
+			    		<div class="swiper-button-prev"></div>
+  					</div>
+				</div>
+				<div class="header_wrapper-container"></div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="subscribe">
+			<form>
+				<div class="col-md-3 col-sm-12 subscribe-item signup"><p>signup to newsletter</p></div>
+				<div class="col-md-3 col-sm-12 subscribe-item"><input type="text" placeholder="your name" name="name" id="name" class="placeholder"></div>
+				<div class="col-md-3 col-sm-12 subscribe-item"><input type="text" placeholder="your email adress" name="email" id="email" required></div>
+				<div class="col-md-3 col-sm-12 subscribe-item button"><input type="submit" value="subscribe now"></div>
+			</form>
+		</div>
+		<div class="card-columns">
+			<div class="card card-item item-1">
+				<p class="title-post">Traveling</p>
+				<p class="name-post">Travel best adventure</p>
+				<p class="date-post">January 25, 2016</p>
+				<p class="description-post">Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.</p>
+				<p class="link"><a href="#">Read more</a></p>
+			</div>
+			<div class="card card-item item-2"></div>
+			<div class="card card-item item-3"></div>
+			<div class="card card-item item-4"></div>
+			<div class="card card-item item-5"></div>
+			<div class="card card-item item-6"></div>
+			<div class="card card-item item-7"></div>
+			<div class="card card-item item-8"></div>
+			<div class="card card-item item-9"></div>
+			<div class="card card-item item-10"></div>
+			<div class="card card-item item-11"></div>
+			<div class="card card-item item-12"></div>
+		</div>
+	</main>
+	<footer></footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/form.js"></script>
+	<script src="js/swiper.js"></script>
+	<script>
+		$(document).on("scroll",function(){
+    		if($(document).scrollTop()>  0){
+        		$(".header_menu").removeClass("bottom").addClass("top");
+    		} else{
+        	$(".header_menu").removeClass("top").addClass("bottom");
+    		}
+		});
+	</script>
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+	      slidesPerView: 1,
+	      direction: 'vertical',
+	      loop: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	        clickable: true,
+	      },
+	      navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	      },
+	    });
+  	</script>
+
+</body>
+</html>
